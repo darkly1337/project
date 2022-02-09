@@ -29,3 +29,13 @@ p{
     font-size: 25px;
     text-align: justify;
 }
+
+.container-1 h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.info img {
+    width: 600px;
+    height: 520x;
+}
