@@ -1,5 +1,8 @@
+
+
+
 body{
-    height: 100%;
+    width: 100%;
 }
 
 
@@ -11,7 +14,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-   
+    
     
 }
 
@@ -25,9 +28,17 @@ body{
     
 }
 
-p{
+
+.center p {
     font-size: 25px;
     text-align: justify;
+}
+
+.container p{
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .container-1 h1{
@@ -40,3 +51,11 @@ p{
     margin-left: 20%;
     
 }
+
+.text p { 
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+
