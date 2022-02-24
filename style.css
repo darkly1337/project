@@ -34,7 +34,7 @@ body{
 
 
 .center p {
-    font-size: 25px;
+    font-size: 27px;
     text-align: justify;
 }
 
@@ -43,7 +43,7 @@ body{
 }
 
 .container p{
-    font-size: 20px;
+    font-size: 27px;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -61,14 +61,16 @@ body{
 }
 
 .container-1 p {
-    font-size: 20px;
-    text-align: center;
+    font-size: 27px;
+    text-align: justify;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
-
+.container h2{
+    font-size: 30px;
+}
 
 
 .center{
@@ -95,7 +97,7 @@ body{
 }
 
 .text p { 
-    font-size: 25px;
+    font-size: 30px;
     text-align: justify;
 }
 
