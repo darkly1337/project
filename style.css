@@ -44,10 +44,11 @@ body{
 
 .container p{
     font-size: 27px;
-    text-align: center;
+    text-align: justify;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
+    padding-top: 35px;
 }
 
 .container h1 {
@@ -166,6 +167,10 @@ nav ul li a{
     margin-left: auto;
     margin-right: auto;
     box-shadow:none;
+}
+
+a:hover{
+    color:black;
 }
 
 
