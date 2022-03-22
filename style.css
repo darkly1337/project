@@ -36,6 +36,7 @@ body{
 .center p {
     font-size: 24px;
     text-align: justify;
+
 }
 
 .container{
@@ -73,28 +74,6 @@ body{
     font-size: 30px;
 }
 
-
-.center{
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 5%;
-    background-color:white;
-    
-}
-
-.center h1{
-    padding-left: 30px;
-}
-
-
-.center p {
-    font-size: 20px;
-    padding: 20px 20px;
-}
-
-.center img {
-    padding-left: 20px;
-}
 
 .text p { 
     font-size: 30px;
@@ -183,4 +162,42 @@ a:hover{
     padding-top:40px ;
 
 }
+
+.btn{
+    padding: 7px 20px;
+    margin-top: 20px;
+}
+
+.inputClass{
+    padding:7px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#myArticales{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color:white;
+    
+}
+
+
+.center h1{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+.center p {
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.center img {
+    padding-left: 20px;
+}
+
+
 
