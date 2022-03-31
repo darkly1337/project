@@ -199,5 +199,13 @@ a:hover{
     padding-left: 20px;
 }
 
+.cauta{
+    padding-left:20px;
+    font-size:10px;
+    color: gray;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
 
 
