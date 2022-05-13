@@ -15,10 +15,11 @@
         <div class = "nav-bar">
             <nav>
                 <ul>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="nil.html">NIL</a></li>
-                    <li><a href="fauna.html">FAUNA</a></li>
-                    <li><a href="turism.html">LOCURI TURISTICE</a></li>
+                    <li><a href="home.php">HOME</a></li>
+                    <li><a href="nil.php">NIL</a></li>
+                    <li><a href="fauna.php">FAUNA</a></li>
+                    <li><a href="turism.php">LOCURI TURISTICE</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                 </ul>
         </nav>
         </div>

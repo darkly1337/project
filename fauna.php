@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src = "js/script.js"></script>
     <title>Fauna</title>
 </head>
 <body>
@@ -15,10 +14,11 @@
         <div class = "nav-bar">
             <nav>
                 <ul>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="nil.html">NIL</a></li>
-                    <li><a href="fauna.html">FAUNA</a></li>
-                    <li><a href="turism.html">LOCURI TURISTICE</a></li>
+                    <li><a href="home.php">HOME</a></li>
+                    <li><a href="nil.php">NIL</a></li>
+                    <li><a href="fauna.php">FAUNA</a></li>
+                    <li><a href="turism.php">LOCURI TURISTICE</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                 </ul>
                 
         </nav>
