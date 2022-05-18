@@ -1,8 +1,4 @@
-<?php 
-if(!isset($success)){
-    $success = '';
-}
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +7,7 @@ if(!isset($success)){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Contact</title>
 </head>
 <body>
@@ -44,16 +41,8 @@ if(!isset($success)){
 
 <input type="text" id="message" name="message" placeholder="Message"><br><br>
 <input type="submit" id="submit" value="Send" name="submit">
+<p id="validationText"></p>
 
-<?php if(isset($name_error)){ ?>
-    <p class="php_error"> <?php echo $name_error ?> </p>
-<?php } ?>
-<?php if(isset($email_error)){ ?>
-    <p class="php_error"> <?php echo $email_error ?> </p>
-<?php } ?>
-<?php if(!isset($name_error) && !isset($email_error)){ ?>
-                    <p class="php_error"> <?php echo $success ?> </p>
-                <?php } ?>
 
 </form>
 
@@ -61,8 +50,7 @@ if(!isset($success)){
 
 </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/contacts-validation.js"></script>
-
+<script src="js/contacts-validation.js"></script>
+<script src="js/validation.js"></script>
 </body>
 </html>

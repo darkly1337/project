@@ -494,3 +494,7 @@ textarea{
     color:red;
 }
 
+#validationText {
+    text-align: center;
+    color:red;
+}
